@@ -3,7 +3,7 @@ package pool
 import (
 	"sync"
 
-	"github.com/gobwas/pool/internal/pmath"
+	"github.com/marouaneat95/pool/internal/pmath"
 )
 
 var DefaultPool = New(128, 65536)
